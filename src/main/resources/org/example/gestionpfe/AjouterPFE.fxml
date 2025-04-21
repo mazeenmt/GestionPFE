@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AjouterPFE">
+   <children>
+      <HBox alignment="CENTER" prefHeight="54.0" prefWidth="848.0" style="-fx-background-color: #160C28;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@./img/Tunisie.png" />
+               </image>
+            </ImageView>
+            <Separator maxHeight="-Infinity" opacity="0.0" prefWidth="400.0" />
+            <Label minWidth="-Infinity" prefHeight="62.0" prefWidth="279.0" style="-fx-font-family: verdana;" text="Gestion de PFE" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+            <Separator opacity="0.0" prefWidth="500.0" />
+            <ImageView fitHeight="64.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@./img/Graduate.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Pane prefHeight="656.0" prefWidth="1280.0" style="-fx-background-color: #E1EFE6;">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutX="314.0" layoutY="75.0" prefHeight="459.0" prefWidth="653.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="34.0" prefWidth="286.0" text="Ajouter un Projet" textFill="#033f63">
+                     <font>
+                        <Font name="AdobeHeitiStd-Regular" size="35.0" />
+                     </font>
+                  </Label>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="Sujet du projet">
+                        <font>
+                           <Font size="22.0" />
+                        </font>
+                     </Label>
+                     <Separator opacity="0.0" prefWidth="20.0" />
+                     <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 20px;">
+                        <HBox.margin>
+                           <Insets bottom="3.0" top="3.0" />
+                        </HBox.margin>
+                     </TextField>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="1er Etudiant">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator minWidth="-Infinity" opacity="0.0" prefWidth="20.0" />
+                        <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 20px;">
+                           <HBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="2ème Etudiant">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator minWidth="-Infinity" opacity="0.0" prefWidth="20.0" />
+                        <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 20px;">
+                           <HBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="Encadrant">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator minWidth="-Infinity" opacity="0.0" prefWidth="20.0" />
+                        <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 20px;">
+                           <HBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="Date soutenance">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator minWidth="-Infinity" opacity="0.0" prefWidth="20.0" />
+                        <DatePicker minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 50px; -fx-border-radius: 20px; -fx-background-color: #FFFFFF; -fx-border-color: #BBBBBB;">
+                           <HBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets left="9.0" right="9.0" />
+                           </padding>
+                        </DatePicker>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="Heure">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator minWidth="-Infinity" opacity="0.0" prefWidth="20.0" />
+                        <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 20px;">
+                           <HBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="37.0" prefWidth="398.0">
+                     <children>
+                        <Label minWidth="-Infinity" prefHeight="37.0" prefWidth="200.0" style="-fx-font-family: verdana;" text="Salle">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Label>
+                        <Separator minWidth="-Infinity" opacity="0.0" prefWidth="20.0" />
+                        <TextField minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="300.0" style="-fx-background-radius: 20px;">
+                           <HBox.margin>
+                              <Insets bottom="3.0" top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" />
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="40.0" prefWidth="124.0" style="-fx-background-color: #28666e; -fx-background-radius: 20px;" text="Ajouter" textFill="WHITE">
+                     <font>
+                        <Font name="AdobeHeitiStd-Regular" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <ImageView fitHeight="428.0" fitWidth="390.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/8531854-removebg-preview.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</VBox>
